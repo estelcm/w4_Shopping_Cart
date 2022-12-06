@@ -58,7 +58,7 @@ export default {
   <header>
     <nav class="flex">
       <p class="text-sky-700 text-lg">{{ title }}</p>
-      <div>TOTAL NUMBERS OF ITEMS IN THE CART IS +" "{{ totalCartItems }}</div>
+      <div>TOTAL NUMBERS OF ITEMS IN THE CART IS   {{ totalCartItems }}</div>
     </nav>
   </header>
   <section>
