@@ -81,7 +81,7 @@ export default {
           <td>
             <input type="number" v-model="item.quantity" placeholder="0" />
           </td>
-          <td>{{ item.price * item.quantity }} €</td>
+          <td>{{item.price * item.quantity}}€ </td>
         </tr>
       </tbody>
     </table>
