@@ -37,7 +37,7 @@ export default {
     cartlimit(){
       return this.items.lenght >= 5;
     }
-
+//---//
     // subTotal(){
     //   // let total=0;
     //   // let apiPrice= this.items.quantity;
@@ -75,8 +75,8 @@ export default {
       <tbody v-for="item of selectedItems" :key="item.uuid">
         <tr>
           <td>{{ item.name }}</td>
-          <td class="w-10 h-10 bg-teal-600">photo</td>
-          <!-- <img class="w-0.01" :src="item.image" :alt="items.name">  -->
+          <!-- <td class="w-10 h-10 bg-teal-600">photo</td> -->
+           <td><img width="70" :src="item.image" :alt="items.name"> </td>
           <td>{{ item.price }} €</td>
           <td>
             <input type="number" v-model="item.quantity" placeholder="0" />
